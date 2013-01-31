@@ -1,0 +1,14 @@
+<configuration>
+    <language>en</language>
+    <dictionary>models/dictionary-1.2.0.zip</dictionary>
+    <pos_model>models/ontonotes-en-pos-1.1.0g.jar</pos_model>
+
+    <reader type="raw">
+    </reader>
+
+    <train>
+        <algorithm name="liblinear" solver="0" cost="0.1" eps="0.1" bias="-1"/>
+        <threads>8</threads>
+    </train>
+</configuration>
+
